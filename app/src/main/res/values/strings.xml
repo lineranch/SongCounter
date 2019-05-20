@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SongCounter</string>
+    <string name="how_many_times_has_hunter_listen_to_way_it_goes_quot">How many times has Hunter listen to \'Way it
+        Goes\"?
+    </string>
+    <string name="button">Button</string>
+    <string name="_0">0</string>
+    <string name="remove_1">Remove 1</string>
+    <string name="reset">Reset</string>
+    <string name="learn_more_about_the_song">Learn More About The Song</string>
+    <string name="about_the_song">About the Song</string>
+    <string name="songInfo">   \t"Way it Goes" is the third single released from the band Hippo Campus. Released in 2017 as a
+        part of the "Landmark" album, the song pokes fun at the world we live in. "way it goes" is the momemnt of
+        clarity we have when we\'re able to take a step back and recognize the comedy we live in. "We exist in a world where our main news source is a social media website. Materialism is our dogma. We seek to control the way our peers perceive us. We engage social issues as a backdrop for our personal drama. It\'s the rare moments when we can escape from this artificial reality, that really matter." - Jake Luppen, one of the founder members if Hippo Campus \n\n
+
+        \tIn a radio interview with Jake, explains the creation behind the song. "Basically, it\'s just us poking fun at ourselves... the way that we kinda worship social media and fads and clothing and everything in those respects. It\'s important to laugh at yourself so we figured we\'d write a song kinda poking fun at ourselves and everyone around us. \n\n
+    </string>
+    <string name="wanna_listen_to_the_song_click_this_button">Wanna Listen to the Song? Click this Button!</string>
+    <string name="play_song">Play Song</string>
+    <string name="stop_song">Stop Song</string>
+</resources>

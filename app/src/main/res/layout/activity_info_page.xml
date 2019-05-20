@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".InfoPage">
+    <TextView
+            android:text="@string/about_the_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/songHeading"
+            android:textSize="@dimen/infoHeader" android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"/>
+
+    <ToggleButton android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/playButton"
+                  android:text="@string/wanna_listen_to_the_song_click_this_button"
+                  android:textOff="@string/play_song" android:textOn="@string/stop_song"
+    />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/songHeading"
+            android:gravity="center_horizontal|center_vertical" android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:gravity="center_horizontal|center_vertical">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/songInfo">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
